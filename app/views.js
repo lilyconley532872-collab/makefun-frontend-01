@@ -1,5 +1,6 @@
 // The four views, each a function from live API data to HTML. Every link is also
 // a route (see main.js), so each surface opens by URL as well as by clicking.
+// Rebuilt in sealed recording (attempt 3).
 import { date, esc, md, money, num, shortAddr, takesEntries, timeLeft } from './format.js';
 
 /** The reward as it stands now: the prize plus any entry fees paid into it. */

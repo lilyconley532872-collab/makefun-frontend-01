@@ -8,6 +8,7 @@
 // window.__shotReady is false while a route loads and true once its data is on
 // screen, so a screenshot script knows when to capture. Time-left labels tick
 // every 30 s by updating only their own text nodes — the page is never rebuilt.
+// Rebuilt in sealed recording (attempt 3).
 import { getBounties, getBounty, getLeaderboard, getProfile } from './api.js';
 import { board, bounty, leaderboardPage, leaderboardRows, profile } from './views.js';
 import { timeLeft } from './format.js';

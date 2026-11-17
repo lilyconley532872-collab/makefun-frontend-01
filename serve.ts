@@ -2,6 +2,7 @@
 // build step: `node serve.ts` serves app/ on http://localhost:8080 (`--port <n>` for another port). It sends the MIME
 // types a browser needs, refuses any path outside app/, and otherwise does nothing clever: this is a development
 // convenience, not a web server for the internet.
+// Rebuilt in sealed recording (attempt 3).
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';

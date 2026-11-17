@@ -2,6 +2,7 @@
 // revalidated with ETags: the API binds an ETag to the minute, so a repeat fetch
 // inside the minute answers 304 and costs no fresh body. Fresh answers are also
 // reused for 45 s without any request at all.
+// Rebuilt in sealed recording (attempt 3).
 const API = 'https://make.fun/api';
 const FRESH_MS = 45_000;
 const cache = new Map(); // path -> { etag, body, at }

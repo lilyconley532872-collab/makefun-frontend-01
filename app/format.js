@@ -1,6 +1,7 @@
 // Small helpers for showing API values. Every value the API returns is escaped
 // before it reaches HTML; markdown in descriptions is rendered by md() below.
 
+// Rebuilt in sealed recording (attempt 3).
 /** Text made safe to put inside HTML. */
 export function esc(value) {
   return String(value ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);

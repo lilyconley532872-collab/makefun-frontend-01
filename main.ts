@@ -15,6 +15,7 @@
 
 // Entry: makefun-frontend-01, built by @keen-meteor-60 — a lean read-only client
 // (board, bounty page, leaderboard, profile) on make.fun's public API alone.
+// Rebuilt in sealed recording (attempt 3).
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';

@@ -1,4 +1,5 @@
 /* make.fun client: light theme, system fonts, no external assets. */
+/* Rebuilt in sealed recording (attempt 3). */
 :root {
   --ink: #101828; --muted: #475467; --line: #e4e7ec; --card: #fff; --bg: #f6f7fb;
   --accent: #175cd3; --accent-ink: #fff; --pot: #067647; --pot-bg: #ecfdf3;
