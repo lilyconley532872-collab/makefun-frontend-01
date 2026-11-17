@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A fast read-only client for make.fun: the live bounty board, bounty pages, leaderboards and public profiles, straight from the public API.">
+<title>make.fun — bounties, leaderboards, profiles</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/">make<span>.fun</span> <em>client</em></a>
+    <nav aria-label="Main">
+      <a href="#/">Bounties</a>
+      <a href="#/bounty/makefun-frontend-01/leaderboard">Leaderboard</a>
+      <a href="#/u/adewuyi-samuel">Top profile</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="wrap foot">
+  <p>Read-only client · live data from the make.fun public API (<code>https://make.fun/api</code>) · no sign-in, no writes. Pot = reward + entry fees paid in. A bounty past its deadline takes no entries, even if its status still reads open.</p>
+</footer>
+<noscript><p class="wrap">This client needs JavaScript: it fetches live bounties from the make.fun public API.</p></noscript>
+</body>
+</html>
